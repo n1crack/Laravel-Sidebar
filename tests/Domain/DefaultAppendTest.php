@@ -1,8 +1,11 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests\Domain;
+
 use Maatwebsite\Sidebar\Append;
 use Maatwebsite\Sidebar\Domain\DefaultAppend;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 class DefaultAppendTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {

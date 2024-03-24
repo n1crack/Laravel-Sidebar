@@ -1,9 +1,12 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests\Domain;
+
 use Maatwebsite\Sidebar\Domain\DefaultGroup;
 use Maatwebsite\Sidebar\Domain\DefaultItem;
 use Maatwebsite\Sidebar\Group;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 class DefaultGroupTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {

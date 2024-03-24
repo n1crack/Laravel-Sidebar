@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Sidebar\Traits\AuthorizableTrait;
+namespace Maatwebsite\Sidebar\Tests\Traits;
 
 class AuthorizableTraitTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {

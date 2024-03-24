@@ -1,5 +1,7 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests\Traits;
+
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Collection;
 use Maatwebsite\Sidebar\Domain\DefaultItem;
@@ -7,6 +9,7 @@ use Maatwebsite\Sidebar\Itemable;
 use Maatwebsite\Sidebar\Traits\CallableTrait;
 use Maatwebsite\Sidebar\Traits\ItemableTrait;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 class ItemableTraitTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {

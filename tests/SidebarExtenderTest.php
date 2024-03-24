@@ -1,10 +1,13 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests;
+
 use Maatwebsite\Sidebar\Domain\DefaultGroup;
 use Maatwebsite\Sidebar\Domain\DefaultMenu;
 use Maatwebsite\Sidebar\Menu;
 use Maatwebsite\Sidebar\SidebarExtender;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 class SidebarExtenderTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {

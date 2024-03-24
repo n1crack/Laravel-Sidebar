@@ -1,10 +1,13 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests\Domain;
+
 use Maatwebsite\Sidebar\Domain\DefaultAppend;
 use Maatwebsite\Sidebar\Domain\DefaultBadge;
 use Maatwebsite\Sidebar\Domain\DefaultItem;
 use Maatwebsite\Sidebar\Item;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 class DefaultItemTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {

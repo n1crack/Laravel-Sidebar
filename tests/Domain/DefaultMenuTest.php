@@ -1,9 +1,12 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests\Domain;
+
 use Maatwebsite\Sidebar\Domain\DefaultGroup;
 use Maatwebsite\Sidebar\Domain\DefaultMenu;
 use Maatwebsite\Sidebar\Menu;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 
 class DefaultMenuTest extends \Maatwebsite\Sidebar\Tests\TestCase
@@ -56,6 +59,7 @@ class DefaultMenuTest extends \Maatwebsite\Sidebar\Tests\TestCase
         $this->assertInstanceOf('Maatwebsite\Sidebar\Menu', $unserialized);
         $this->assertInstanceOf('Illuminate\Support\Collection', $unserialized->getGroups());
         $this->assertCount(2, $unserialized->getGroups());
+
     }
 
     public function test_can_add_group_instance_to_menu()

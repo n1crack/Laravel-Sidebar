@@ -1,9 +1,12 @@
 <?php
 
+namespace Maatwebsite\Sidebar\Tests\Traits;
+
 use Illuminate\Contracts\Container\Container;
 use Maatwebsite\Sidebar\Routeable;
 use Maatwebsite\Sidebar\Traits\RouteableTrait;
 use Mockery as m;
+use PHPUnit\Framework\TestCase as TestCase;
 
 class RouteableTraitTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {
