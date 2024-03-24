@@ -10,4 +10,4 @@ coverage
 .phpunit.result.cache
 /.idea
 build/report.junit.xml
-
+.phpunit.cache/test-results

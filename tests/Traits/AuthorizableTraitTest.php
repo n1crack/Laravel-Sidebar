@@ -2,6 +2,8 @@
 
 namespace Maatwebsite\Sidebar\Tests\Traits;
 
+use Maatwebsite\Sidebar\Traits\AuthorizableTrait;
+
 class AuthorizableTraitTest extends \Maatwebsite\Sidebar\Tests\TestCase
 {
     /**
